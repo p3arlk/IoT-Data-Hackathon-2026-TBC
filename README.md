@@ -77,7 +77,10 @@ source venv/bin/activate
 ### Step 4: Install Dependencies
 ```
 pip install --upgrade pip
+
 pip install -r requirements.txt
+OR
+pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 ```
 
 ### Step 5: RUN THE ANALYSIS
