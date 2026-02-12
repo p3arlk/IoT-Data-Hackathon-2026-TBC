@@ -33,7 +33,6 @@ IoT-Data-Hackathon-2026-TBC/
 ├── strategist.py # 💡 Step 5: Generates recommendations  
 ├── visualizer.py # 🎨 Step 6: Creates charts and graphs  
 ├── utils.py # 🛠️ Helper functions  
-├── hackathon_analysis.py # 📊 Original analysis script  
 ├── requirements.txt # 📦 Python dependencies  
 ├── README.md # 📖 This file  
 │  
