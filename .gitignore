@@ -1,0 +1,56 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+venv.bak/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ignore everything inside outputs/ and ALL subfolders
+outputs/**/*
+
+# BUT keep the outputs folder itself
+!outputs/
+!outputs/**/
+
+# Keep placeholder.txt files so empty folders show on GitHub
+!outputs/placeholder.txt
+!outputs/cleaned/placeholder.txt
+!outputs/forecasts/placeholder.txt  
+!outputs/insights/placeholder.txt
+!outputs/recommendations/placeholder.txt
+!outputs/reports/placeholder.txt
+!outputs/visualizations/placeholder.txt
+
+# Data files (uncomment if you don't want to upload data)
+# data/**/*
+# !data/
+# !data/**/
+# !data/placeholder.txt
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log

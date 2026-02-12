@@ -1,0 +1,329 @@
+Cause of death,Age group,Sex,Count
+Malignant neoplasms (ICD-10: C00-C97),All ages,Male,8609
+Malignant neoplasms (ICD-10: C00-C97),All ages,Female,6466
+Malignant neoplasms (ICD-10: C00-C97),All ages,Total,15075
+Malignant neoplasms (ICD-10: C00-C97),0-4,Male,3
+Malignant neoplasms (ICD-10: C00-C97),0-4,Female,0
+Malignant neoplasms (ICD-10: C00-C97),0-4,Total,3
+Malignant neoplasms (ICD-10: C00-C97),1-4,Male,1
+Malignant neoplasms (ICD-10: C00-C97),1-4,Female,2
+Malignant neoplasms (ICD-10: C00-C97),1-4,Total,3
+Malignant neoplasms (ICD-10: C00-C97),5-14,Male,4
+Malignant neoplasms (ICD-10: C00-C97),5-14,Female,2
+Malignant neoplasms (ICD-10: C00-C97),5-14,Total,6
+Malignant neoplasms (ICD-10: C00-C97),15-44,Male,140
+Malignant neoplasms (ICD-10: C00-C97),15-44,Female,196
+Malignant neoplasms (ICD-10: C00-C97),15-44,Total,336
+Malignant neoplasms (ICD-10: C00-C97),45-64,Male,1818
+Malignant neoplasms (ICD-10: C00-C97),45-64,Female,1692
+Malignant neoplasms (ICD-10: C00-C97),45-64,Total,3510
+Malignant neoplasms (ICD-10: C00-C97),65 & above,Male,6642
+Malignant neoplasms (ICD-10: C00-C97),65 & above,Female,4574
+Malignant neoplasms (ICD-10: C00-C97),65 & above,Total,11216
+Malignant neoplasms (ICD-10: C00-C97),Unknown,Male,1
+Malignant neoplasms (ICD-10: C00-C97),Unknown,Female,0
+Malignant neoplasms (ICD-10: C00-C97),Unknown,Total,1
+Pneumonia (ICD-10: J12-J18),All ages,Male,6111
+Pneumonia (ICD-10: J12-J18),All ages,Female,5284
+Pneumonia (ICD-10: J12-J18),All ages,Total,11395
+Pneumonia (ICD-10: J12-J18),0-4,Male,1
+Pneumonia (ICD-10: J12-J18),0-4,Female,1
+Pneumonia (ICD-10: J12-J18),0-4,Total,2
+Pneumonia (ICD-10: J12-J18),1-4,Male,1
+Pneumonia (ICD-10: J12-J18),1-4,Female,0
+Pneumonia (ICD-10: J12-J18),1-4,Total,1
+Pneumonia (ICD-10: J12-J18),5-14,Male,0
+Pneumonia (ICD-10: J12-J18),5-14,Female,2
+Pneumonia (ICD-10: J12-J18),5-14,Total,2
+Pneumonia (ICD-10: J12-J18),15-44,Male,32
+Pneumonia (ICD-10: J12-J18),15-44,Female,31
+Pneumonia (ICD-10: J12-J18),15-44,Total,63
+Pneumonia (ICD-10: J12-J18),45-64,Male,360
+Pneumonia (ICD-10: J12-J18),45-64,Female,178
+Pneumonia (ICD-10: J12-J18),45-64,Total,538
+Pneumonia (ICD-10: J12-J18),65 & above,Male,5716
+Pneumonia (ICD-10: J12-J18),65 & above,Female,5072
+Pneumonia (ICD-10: J12-J18),65 & above,Total,10788
+Pneumonia (ICD-10: J12-J18),Unknown,Male,1
+Pneumonia (ICD-10: J12-J18),Unknown,Female,0
+Pneumonia (ICD-10: J12-J18),Unknown,Total,1
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),All ages,Male,3730
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),All ages,Female,2864
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),All ages,Total,6594
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),0-4,Male,1
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),0-4,Female,2
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),0-4,Total,3
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),1-4,Male,0
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),1-4,Female,1
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),1-4,Total,1
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),5-14,Male,0
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),5-14,Female,3
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),5-14,Total,3
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),15-44,Male,101
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),15-44,Female,29
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),15-44,Total,130
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),45-64,Male,815
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),45-64,Female,202
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),45-64,Total,1017
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),65 & above,Male,2813
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),65 & above,Female,2627
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),65 & above,Total,5440
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),Unknown,Male,0
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),Unknown,Female,0
+Diseases of heart (ICD-10: I00-I09, I11, I13, I20-I51),Unknown,Total,0
+Cerebrovascular diseases (ICD-10: I60-I69),All ages,Male,1520
+Cerebrovascular diseases (ICD-10: I60-I69),All ages,Female,1391
+Cerebrovascular diseases (ICD-10: I60-I69),All ages,Total,2911
+Cerebrovascular diseases (ICD-10: I60-I69),0-4,Male,1
+Cerebrovascular diseases (ICD-10: I60-I69),0-4,Female,0
+Cerebrovascular diseases (ICD-10: I60-I69),0-4,Total,1
+Cerebrovascular diseases (ICD-10: I60-I69),1-4,Male,1
+Cerebrovascular diseases (ICD-10: I60-I69),1-4,Female,0
+Cerebrovascular diseases (ICD-10: I60-I69),1-4,Total,1
+Cerebrovascular diseases (ICD-10: I60-I69),5-14,Male,0
+Cerebrovascular diseases (ICD-10: I60-I69),5-14,Female,1
+Cerebrovascular diseases (ICD-10: I60-I69),5-14,Total,1
+Cerebrovascular diseases (ICD-10: I60-I69),15-44,Male,41
+Cerebrovascular diseases (ICD-10: I60-I69),15-44,Female,27
+Cerebrovascular diseases (ICD-10: I60-I69),15-44,Total,68
+Cerebrovascular diseases (ICD-10: I60-I69),45-64,Male,257
+Cerebrovascular diseases (ICD-10: I60-I69),45-64,Female,142
+Cerebrovascular diseases (ICD-10: I60-I69),45-64,Total,399
+Cerebrovascular diseases (ICD-10: I60-I69),65 & above,Male,1220
+Cerebrovascular diseases (ICD-10: I60-I69),65 & above,Female,1221
+Cerebrovascular diseases (ICD-10: I60-I69),65 & above,Total,2441
+Cerebrovascular diseases (ICD-10: I60-I69),Unknown,Male,0
+Cerebrovascular diseases (ICD-10: I60-I69),Unknown,Female,0
+Cerebrovascular diseases (ICD-10: I60-I69),Unknown,Total,0
+External causes of morbidity and mortality† (ICD-10: V01-Y89),All ages,Male,1400
+External causes of morbidity and mortality† (ICD-10: V01-Y89),All ages,Female,733
+External causes of morbidity and mortality† (ICD-10: V01-Y89),All ages,Total,2133
+External causes of morbidity and mortality† (ICD-10: V01-Y89),0-4,Male,0
+External causes of morbidity and mortality† (ICD-10: V01-Y89),0-4,Female,1
+External causes of morbidity and mortality† (ICD-10: V01-Y89),0-4,Total,1
+External causes of morbidity and mortality† (ICD-10: V01-Y89),1-4,Male,0
+External causes of morbidity and mortality† (ICD-10: V01-Y89),1-4,Female,2
+External causes of morbidity and mortality† (ICD-10: V01-Y89),1-4,Total,2
+External causes of morbidity and mortality† (ICD-10: V01-Y89),5-14,Male,7
+External causes of morbidity and mortality† (ICD-10: V01-Y89),5-14,Female,9
+External causes of morbidity and mortality† (ICD-10: V01-Y89),5-14,Total,16
+External causes of morbidity and mortality† (ICD-10: V01-Y89),15-44,Male,365
+External causes of morbidity and mortality† (ICD-10: V01-Y89),15-44,Female,159
+External causes of morbidity and mortality† (ICD-10: V01-Y89),15-44,Total,524
+External causes of morbidity and mortality† (ICD-10: V01-Y89),45-64,Male,430
+External causes of morbidity and mortality† (ICD-10: V01-Y89),45-64,Female,195
+External causes of morbidity and mortality† (ICD-10: V01-Y89),45-64,Total,625
+External causes of morbidity and mortality† (ICD-10: V01-Y89),65 & above,Male,597
+External causes of morbidity and mortality† (ICD-10: V01-Y89),65 & above,Female,366
+External causes of morbidity and mortality† (ICD-10: V01-Y89),65 & above,Total,963
+External causes of morbidity and mortality† (ICD-10: V01-Y89),Unknown,Male,1
+External causes of morbidity and mortality† (ICD-10: V01-Y89),Unknown,Female,1
+External causes of morbidity and mortality† (ICD-10: V01-Y89),Unknown,Total,2
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),All ages,Male,873
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),All ages,Female,872
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),All ages,Total,1745
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),0-4,Male,0
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),0-4,Female,0
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),0-4,Total,0
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),1-4,Male,0
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),1-4,Female,0
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),1-4,Total,0
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),5-14,Male,0
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),5-14,Female,0
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),5-14,Total,0
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),15-44,Male,7
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),15-44,Female,5
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),15-44,Total,12
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),45-64,Male,108
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),45-64,Female,62
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),45-64,Total,170
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),65 & above,Male,758
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),65 & above,Female,805
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),65 & above,Total,1563
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),Unknown,Male,0
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),Unknown,Female,0
+Nephritis, nephrotic syndrome and nephrosis (ICD-10: N00-N07, N17-N19, N25-N27),Unknown,Total,0
+Dementia (ICD-10: F01-F03),All ages,Male,512
+Dementia (ICD-10: F01-F03),All ages,Female,852
+Dementia (ICD-10: F01-F03),All ages,Total,1364
+Dementia (ICD-10: F01-F03),0-4,Male,0
+Dementia (ICD-10: F01-F03),0-4,Female,0
+Dementia (ICD-10: F01-F03),0-4,Total,0
+Dementia (ICD-10: F01-F03),1-4,Male,0
+Dementia (ICD-10: F01-F03),1-4,Female,0
+Dementia (ICD-10: F01-F03),1-4,Total,0
+Dementia (ICD-10: F01-F03),5-14,Male,0
+Dementia (ICD-10: F01-F03),5-14,Female,0
+Dementia (ICD-10: F01-F03),5-14,Total,0
+Dementia (ICD-10: F01-F03),15-44,Male,0
+Dementia (ICD-10: F01-F03),15-44,Female,0
+Dementia (ICD-10: F01-F03),15-44,Total,0
+Dementia (ICD-10: F01-F03),45-64,Male,2
+Dementia (ICD-10: F01-F03),45-64,Female,4
+Dementia (ICD-10: F01-F03),45-64,Total,6
+Dementia (ICD-10: F01-F03),65 & above,Male,510
+Dementia (ICD-10: F01-F03),65 & above,Female,848
+Dementia (ICD-10: F01-F03),65 & above,Total,1358
+Dementia (ICD-10: F01-F03),Unknown,Male,0
+Dementia (ICD-10: F01-F03),Unknown,Female,0
+Dementia (ICD-10: F01-F03),Unknown,Total,0
+Septicaemia (ICD-10: A40-A41),All ages,Male,600
+Septicaemia (ICD-10: A40-A41),All ages,Female,552
+Septicaemia (ICD-10: A40-A41),All ages,Total,1152
+Septicaemia (ICD-10: A40-A41),0-4,Male,0
+Septicaemia (ICD-10: A40-A41),0-4,Female,0
+Septicaemia (ICD-10: A40-A41),0-4,Total,0
+Septicaemia (ICD-10: A40-A41),1-4,Male,0
+Septicaemia (ICD-10: A40-A41),1-4,Female,0
+Septicaemia (ICD-10: A40-A41),1-4,Total,0
+Septicaemia (ICD-10: A40-A41),5-14,Male,1
+Septicaemia (ICD-10: A40-A41),5-14,Female,1
+Septicaemia (ICD-10: A40-A41),5-14,Total,2
+Septicaemia (ICD-10: A40-A41),15-44,Male,14
+Septicaemia (ICD-10: A40-A41),15-44,Female,14
+Septicaemia (ICD-10: A40-A41),15-44,Total,28
+Septicaemia (ICD-10: A40-A41),45-64,Male,69
+Septicaemia (ICD-10: A40-A41),45-64,Female,36
+Septicaemia (ICD-10: A40-A41),45-64,Total,105
+Septicaemia (ICD-10: A40-A41),65 & above,Male,516
+Septicaemia (ICD-10: A40-A41),65 & above,Female,501
+Septicaemia (ICD-10: A40-A41),65 & above,Total,1017
+Septicaemia (ICD-10: A40-A41),Unknown,Male,0
+Septicaemia (ICD-10: A40-A41),Unknown,Female,0
+Septicaemia (ICD-10: A40-A41),Unknown,Total,0
+Chronic lower respiratory diseases (ICD-10: J40-J47),All ages,Male,879
+Chronic lower respiratory diseases (ICD-10: J40-J47),All ages,Female,218
+Chronic lower respiratory diseases (ICD-10: J40-J47),All ages,Total,1097
+Chronic lower respiratory diseases (ICD-10: J40-J47),0-4,Male,0
+Chronic lower respiratory diseases (ICD-10: J40-J47),0-4,Female,0
+Chronic lower respiratory diseases (ICD-10: J40-J47),0-4,Total,0
+Chronic lower respiratory diseases (ICD-10: J40-J47),1-4,Male,1
+Chronic lower respiratory diseases (ICD-10: J40-J47),1-4,Female,0
+Chronic lower respiratory diseases (ICD-10: J40-J47),1-4,Total,1
+Chronic lower respiratory diseases (ICD-10: J40-J47),5-14,Male,0
+Chronic lower respiratory diseases (ICD-10: J40-J47),5-14,Female,1
+Chronic lower respiratory diseases (ICD-10: J40-J47),5-14,Total,1
+Chronic lower respiratory diseases (ICD-10: J40-J47),15-44,Male,4
+Chronic lower respiratory diseases (ICD-10: J40-J47),15-44,Female,4
+Chronic lower respiratory diseases (ICD-10: J40-J47),15-44,Total,8
+Chronic lower respiratory diseases (ICD-10: J40-J47),45-64,Male,51
+Chronic lower respiratory diseases (ICD-10: J40-J47),45-64,Female,21
+Chronic lower respiratory diseases (ICD-10: J40-J47),45-64,Total,72
+Chronic lower respiratory diseases (ICD-10: J40-J47),65 & above,Male,823
+Chronic lower respiratory diseases (ICD-10: J40-J47),65 & above,Female,192
+Chronic lower respiratory diseases (ICD-10: J40-J47),65 & above,Total,1015
+Chronic lower respiratory diseases (ICD-10: J40-J47),Unknown,Male,0
+Chronic lower respiratory diseases (ICD-10: J40-J47),Unknown,Female,0
+Chronic lower respiratory diseases (ICD-10: J40-J47),Unknown,Total,0
+Coronavirus disease 2019*†,All ages,Male,395
+Coronavirus disease 2019*†,All ages,Female,325
+Coronavirus disease 2019*†,All ages,Total,720
+Coronavirus disease 2019*†,0-4,Male,0
+Coronavirus disease 2019*†,0-4,Female,0
+Coronavirus disease 2019*†,0-4,Total,0
+Coronavirus disease 2019*†,1-4,Male,1
+Coronavirus disease 2019*†,1-4,Female,0
+Coronavirus disease 2019*†,1-4,Total,1
+Coronavirus disease 2019*†,5-14,Male,0
+Coronavirus disease 2019*†,5-14,Female,0
+Coronavirus disease 2019*†,5-14,Total,0
+Coronavirus disease 2019*†,15-44,Male,3
+Coronavirus disease 2019*†,15-44,Female,0
+Coronavirus disease 2019*†,15-44,Total,3
+Coronavirus disease 2019*†,45-64,Male,21
+Coronavirus disease 2019*†,45-64,Female,15
+Coronavirus disease 2019*†,45-64,Total,36
+Coronavirus disease 2019*†,65 & above,Male,370
+Coronavirus disease 2019*†,65 & above,Female,310
+Coronavirus disease 2019*†,65 & above,Total,680
+Coronavirus disease 2019*†,Unknown,Male,0
+Coronavirus disease 2019*†,Unknown,Female,0
+Coronavirus disease 2019*†,Unknown,Total,0
+Diabetes mellitus (ICD-10: E10-E14),All ages,Male,225
+Diabetes mellitus (ICD-10: E10-E14),All ages,Female,217
+Diabetes mellitus (ICD-10: E10-E14),All ages,Total,442
+Diabetes mellitus (ICD-10: E10-E14),0-4,Male,0
+Diabetes mellitus (ICD-10: E10-E14),0-4,Female,0
+Diabetes mellitus (ICD-10: E10-E14),0-4,Total,0
+Diabetes mellitus (ICD-10: E10-E14),1-4,Male,0
+Diabetes mellitus (ICD-10: E10-E14),1-4,Female,0
+Diabetes mellitus (ICD-10: E10-E14),1-4,Total,0
+Diabetes mellitus (ICD-10: E10-E14),5-14,Male,0
+Diabetes mellitus (ICD-10: E10-E14),5-14,Female,0
+Diabetes mellitus (ICD-10: E10-E14),5-14,Total,0
+Diabetes mellitus (ICD-10: E10-E14),15-44,Male,6
+Diabetes mellitus (ICD-10: E10-E14),15-44,Female,2
+Diabetes mellitus (ICD-10: E10-E14),15-44,Total,8
+Diabetes mellitus (ICD-10: E10-E14),45-64,Male,59
+Diabetes mellitus (ICD-10: E10-E14),45-64,Female,30
+Diabetes mellitus (ICD-10: E10-E14),45-64,Total,89
+Diabetes mellitus (ICD-10: E10-E14),65 & above,Male,160
+Diabetes mellitus (ICD-10: E10-E14),65 & above,Female,185
+Diabetes mellitus (ICD-10: E10-E14),65 & above,Total,345
+Diabetes mellitus (ICD-10: E10-E14),Unknown,Male,0
+Diabetes mellitus (ICD-10: E10-E14),Unknown,Female,0
+Diabetes mellitus (ICD-10: E10-E14),Unknown,Total,0
+Other causes,All ages,Male,4072
+Other causes,All ages,Female,3663
+Other causes,All ages,Unknown,3
+Other causes,All ages,Total,7738
+Other causes,0-4,Male,35
+Other causes,0-4,Female,18
+Other causes,0-4,Unknown,0
+Other causes,0-4,Total,53
+Other causes,1-4,Male,5
+Other causes,1-4,Female,4
+Other causes,1-4,Unknown,0
+Other causes,1-4,Total,9
+Other causes,5-14,Male,8
+Other causes,5-14,Female,5
+Other causes,5-14,Unknown,0
+Other causes,5-14,Total,13
+Other causes,15-44,Male,99
+Other causes,15-44,Female,66
+Other causes,15-44,Unknown,0
+Other causes,15-44,Total,165
+Other causes,45-64,Male,616
+Other causes,45-64,Female,347
+Other causes,45-64,Unknown,0
+Other causes,45-64,Total,963
+Other causes,65 & above,Male,3304
+Other causes,65 & above,Female,3221
+Other causes,65 & above,Unknown,0
+Other causes,65 & above,Total,6525
+Other causes,Unknown,Male,5
+Other causes,Unknown,Female,2
+Other causes,Unknown,Unknown,3
+Other causes,Unknown,Total,10
+All causes,All ages,Male,28926
+All causes,All ages,Female,23437
+All causes,All ages,Unknown,3
+All causes,All ages,Total,52366
+All causes,0-4,Male,41
+All causes,0-4,Female,22
+All causes,0-4,Unknown,0
+All causes,0-4,Total,63
+All causes,1-4,Male,10
+All causes,1-4,Female,9
+All causes,1-4,Unknown,0
+All causes,1-4,Total,19
+All causes,5-14,Male,20
+All causes,5-14,Female,24
+All causes,5-14,Unknown,0
+All causes,5-14,Total,44
+All causes,15-44,Male,812
+All causes,15-44,Female,533
+All causes,15-44,Unknown,0
+All causes,15-44,Total,1345
+All causes,45-64,Male,4606
+All causes,45-64,Female,2924
+All causes,45-64,Unknown,0
+All causes,45-64,Total,7530
+All causes,65 & above,Male,23429
+All causes,65 & above,Female,19922
+All causes,65 & above,Unknown,0
+All causes,65 & above,Total,43351
+All causes,Unknown,Male,8
+All causes,Unknown,Female,3
+All causes,Unknown,Unknown,3
+All causes,Unknown,Total,14

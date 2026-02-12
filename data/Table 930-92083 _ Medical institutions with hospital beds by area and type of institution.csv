@@ -1,0 +1,65 @@
+﻿Table 930-92083 : Medical institutions with hospital beds by area and type of institution,,,,,,,
+ ,,,,,,,
+Year,,,,2021,2022,2023,2024
+,,Area,Type of institutions,,,,
+Medical institutions with hospital beds (1),Number,Hong Kong Island,Hospital Authority hospitals,13,13,13,13
+Medical institutions with hospital beds (1),Number,Hong Kong Island,Private hospitals (2),6,6,7,7
+Medical institutions with hospital beds (1),Number,Hong Kong Island,Nursing homes (2) (3),-,-,-,-
+Medical institutions with hospital beds (1),Number,Hong Kong Island,Hospitals in correctional institutions,4,4,4,4
+Medical institutions with hospital beds (1),Number,Hong Kong Island,Total,23,23,24,24
+Medical institutions with hospital beds (1),Number,Kowloon,Hospital Authority hospitals,11,11,11,11
+Medical institutions with hospital beds (1),Number,Kowloon,Private hospitals (2),4,4,4,4
+Medical institutions with hospital beds (1),Number,Kowloon,Nursing homes (2) (3),-,-,-,-
+Medical institutions with hospital beds (1),Number,Kowloon,Hospitals in correctional institutions,2,2,2,2
+Medical institutions with hospital beds (1),Number,Kowloon,Total,17,17,17,17
+Medical institutions with hospital beds (1),Number,New Territories,Hospital Authority hospitals,19,19,19,19
+Medical institutions with hospital beds (1),Number,New Territories,Private hospitals (2),3,3,3,3
+Medical institutions with hospital beds (1),Number,New Territories,Nursing homes (2) (3),-,-,-,-
+Medical institutions with hospital beds (1),Number,New Territories,Hospitals in correctional institutions,14,14,14,14
+Medical institutions with hospital beds (1),Number,New Territories,Total,36,36,36,36
+Medical institutions with hospital beds (1),Number,Whole Territory,Hospital Authority hospitals,43,43,43,43
+Medical institutions with hospital beds (1),Number,Whole Territory,Private hospitals (2),13,13,14,14
+Medical institutions with hospital beds (1),Number,Whole Territory,Nursing homes (2) (3),-,-,-,-
+Medical institutions with hospital beds (1),Number,Whole Territory,Hospitals in correctional institutions,20,20,20,20
+Medical institutions with hospital beds (1),Number,Whole Territory,Total,76,76,77,77
+Hospital beds (3),Number,Hong Kong Island,Hospital Authority hospitals,6296,6299,6328,6328
+Hospital beds (3),Number,Hong Kong Island,Private hospitals (2),2116,2104,2119,2081
+Hospital beds (3),Number,Hong Kong Island,Nursing homes (2) (3),-,-,-,-
+Hospital beds (3),Number,Hong Kong Island,Hospitals in correctional institutions,106,106,106,106
+Hospital beds (3),Number,Hong Kong Island,Total,8518,8509,8553,8515
+Hospital beds (3),Number,Kowloon,Hospital Authority hospitals,8820,8867,8947,8975
+Hospital beds (3),Number,Kowloon,Private hospitals (2),2143,2124,2109,1927
+Hospital beds (3),Number,Kowloon,Nursing homes (2) (3),-,-,-,-
+Hospital beds (3),Number,Kowloon,Hospitals in correctional institutions,123,123,123,72
+Hospital beds (3),Number,Kowloon,Total,11086,11114,11179,10974
+Hospital beds (3),Number,New Territories,Hospital Authority hospitals,14989,15317,15361,15513
+Hospital beds (3),Number,New Territories,Private hospitals (2),888,979,1066,1171
+Hospital beds (3),Number,New Territories,Nursing homes (2) (3),-,-,-,-
+Hospital beds (3),Number,New Territories,Hospitals in correctional institutions,645,645,623,623
+Hospital beds (3),Number,New Territories,Total,16522,16941,17050,17307
+Hospital beds (3),Number,Whole Territory,Hospital Authority hospitals,30105,30483,30636,30816
+Hospital beds (3),Number,Whole Territory,Private hospitals (2),5147,5207,5294,5179
+Hospital beds (3),Number,Whole Territory,Nursing homes (2) (3),-,-,-,-
+Hospital beds (3),Number,Whole Territory,Hospitals in correctional institutions,874,874,852,801
+Hospital beds (3),Number,Whole Territory,Total,36126,36564,36782,36796
+Beds per thousand population - Series A (4),Ratio,Whole Territory,Total,4.9,4.9,4.9,4.9
+Beds per thousand population - Series B (5),Ratio,Whole Territory,Total,4.3,4.3,4.3,4.3
+ ,,,,,,,
+Note(s):,,,,,,,
+Figures are as at end of the year.,,,,,,,
+1 Figures also include hospitals and institutions without hospital beds under Hospital Authority.,,,,,,,
+"2 Cover private hospitals registered/licensed under the Hospitals, Nursing Homes and Maternity Homes Registration Ordinance (Cap. 165) or under the Private Healthcare Facilities Ordinance (Cap. 633), Laws of Hong Kong. Prior to 2019, the number of private hospital beds included inpatient beds only. Starting from 2019, the number of private hospital beds include both inpatient beds and day beds.",,,,,,,
+"3 On 1 January 2021, the Hospitals, Nursing Homes and Maternity Homes Registration Ordinance (Cap. 165) was repealed when the Private Healthcare Facilities Ordinance (Cap. 633) was commenced. Nursing homes, which were regulated under Cap. 165, are no longer subject to regulation under Cap. 633. Hence, starting from 2021, the hospital beds figures in nursing homes previously compiled according to Cap. 165 are no longer available.",,,,,,,
+"4 Series A includes all hospital beds in Hospital Authority hospitals, private hospitals and correctional institutions.",,,,,,,
+"5 Series B includes only hospital beds in Hospital Authority hospitals and private hospitals excluding accident and emergency observation beds, day beds and nursery beds, which follows the definition of the Organisation for Economic Co-operation and Development.",,,,,,,
+- Not applicable,,,,,,,
+ ,,,,,,,
+Source:,,,,,,,
+Department of Health,,,,,,,
+(Enquiry telephone no. : 3586 3050,,,,,,,
+ Enquiry e-mail : enquiries@dh.gov.hk),,,,,,,
+Hospital Authority,,,,,,,
+(Enquiry telephone no. : 2300 6555,,,,,,,
+ Enquiry e-mail : enquiry@ha.org.hk),,,,,,,
+ ,,,,,,,
+"Release Date: 31 October, 2025",,,,,,,
