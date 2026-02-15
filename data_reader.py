@@ -4,7 +4,7 @@ STEP 1: Read all raw data files - FIXED VERSION
 import pandas as pd
 import csv
 from config import *
-from utils import safe_read_csv, safe_read_excel, Logger
+from utils import safe_read_csv, safe_read_excel, Logger, save_output
 
 class DataReader:
     """Read all raw data files"""
@@ -31,7 +31,7 @@ class DataReader:
         
         self.logger.info("Loading population data...")
         
-        # Table 110-06811: Detailed population
+        # Table 110-06811: Detailed population by District, Sex, Age 
         if POPULATION_DETAILED_FILE.exists():
             try:
                 df = pd.read_csv(
@@ -341,3 +341,84 @@ class DataReader:
                 self.logger.success(f"  → labour_force: {len(df)} rows")
             except Exception as e:
                 self.logger.warning(f"  → Could not load labour_force: {e}")
+
+        # =====================================================================
+        # Table 2.1 and 2.2: District labour force + participation rate
+        # =====================================================================
+        if LABOUR_2_1_FILE.exists():
+            try:
+                df = pd.read_csv(
+                    LABOUR_2_1_FILE,
+                    skiprows=2,
+                    encoding='utf-8',
+                    engine='python'
+                )
+
+                # Attempt to set sensible column names
+                if len(df.columns) >= 4:
+                    df.columns = ['District', 'Male', 'Female', 'Both sexes'][:len(df.columns)]
+                # Drop summary rows
+                df = df[~df['District'].astype(str).str.contains('Whole Territory|Table|Year', na=False)]
+                # Convert numeric
+                for col in ['Male', 'Female', 'Both sexes']:
+                    if col in df.columns:
+                        df[col] = pd.to_numeric(df[col], errors='coerce')
+
+                self.data['labour_2_1'] = df
+                self.logger.success(f"  → labour_2_1: {len(df)} rows")
+                try:
+                    save_output(df.head(10), 'raw_labour_2_1_head.csv', 'cleaned')
+                except Exception:
+                    pass
+            except Exception as e:
+                self.logger.warning(f"  → Could not load labour_2_1: {e}")
+
+        if LABOUR_2_2_FILE.exists():
+            try:
+                df = pd.read_csv(
+                    LABOUR_2_2_FILE,
+                    skiprows=2,
+                    encoding='utf-8',
+                    engine='python'
+                )
+
+                if len(df.columns) >= 4:
+                    df.columns = ['District', 'Male_pct', 'Female_pct', 'Both_pct'][:len(df.columns)]
+                df = df[~df['District'].astype(str).str.contains('Whole Territory|Table|Year', na=False)]
+                for col in ['Male_pct', 'Female_pct', 'Both_pct']:
+                    if col in df.columns:
+                        df[col] = pd.to_numeric(df[col], errors='coerce')
+
+                self.data['labour_2_2'] = df
+                self.logger.success(f"  → labour_2_2: {len(df)} rows")
+                try:
+                    save_output(df.head(10), 'raw_labour_2_2_head.csv', 'cleaned')
+                except Exception:
+                    pass
+            except Exception as e:
+                self.logger.warning(f"  → Could not load labour_2_2: {e}")
+
+        # =====================================================================
+        # Table 130-06609A: Household by income and type of housing (national-level)
+        # =====================================================================
+        if HOUSING_TYPE_FILE.exists():
+            try:
+                df = pd.read_csv(
+                    HOUSING_TYPE_FILE,
+                    skiprows=2,
+                    encoding='utf-8',
+                    engine='python',
+                    on_bad_lines='skip'
+                )
+                # Drop fully-empty columns
+                df = df.dropna(how='all', axis=1)
+                # Remove footers
+                df = df[~df.iloc[:, 0].astype(str).str.contains('Note|Source|Release Date', na=False)]
+                self.data['housing_type'] = df
+                self.logger.success(f"  → housing_type: {len(df)} rows")
+                try:
+                    save_output(df.head(10), 'raw_housing_type_head.csv', 'cleaned')
+                except Exception:
+                    pass
+            except Exception as e:
+                self.logger.warning(f"  → Could not load housing_type: {e}")

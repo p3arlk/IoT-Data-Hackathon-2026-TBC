@@ -48,6 +48,10 @@ HOSPITAL_BEDS_FILE = DATA_DIR / 'Table 930-92083 _ Medical institutions with hos
 HOUSEHOLD_FILE = DATA_DIR / 'Table 3.1 _ Domestic households by District Council district and type of households.csv'
 INCOME_FILE = DATA_DIR / 'Table 3.2 _ Median monthly household income by District Council district and type of households.csv'
 LABOUR_FORCE_FILE = DATA_DIR / 'Table 210-06822 _ Labour force and labour force participation rate by District Council district, sex and age.csv'
+# Additional tables used by the pipeline
+HOUSING_TYPE_FILE = DATA_DIR / 'Table 130-06609A _ Domestic households by monthly household income and type of housing (excluding foreign domestic helpers).csv'
+LABOUR_2_1_FILE = DATA_DIR / 'Table 2.1 _ Labour force by District Council district and sex.csv'
+LABOUR_2_2_FILE = DATA_DIR / 'Table 2.2 _ Labour force participation rate by District Council district and sex.csv'
 
 # =============================================================================
 # MODEL PARAMETERS

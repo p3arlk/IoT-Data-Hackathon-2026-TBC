@@ -113,6 +113,16 @@ class Strategist:
         }
         
         self.logger.success(f"  → Generated inventory plan for {len(inventory_plan)} districts")
+        
+        # If analyst found missing equipment suggestions, include them as a supply gap
+        if 'missing_equipment_suggestions' in self.insights:
+            try:
+                missing = self.insights['missing_equipment_suggestions'].copy()
+                missing['Recommended_Action'] = 'Consider sourcing / procurement to cover demand for top diseases'
+                self.recommendations['supply_gaps'] = missing
+                self.logger.success(f"  → Added {len(missing)} missing equipment suggestions to recommendations")
+            except Exception as e:
+                self.logger.warning(f"  → Could not add missing equipment suggestions: {e}")
     
     def outreach_strategy(self):
         """Recommend targeted outreach channels"""

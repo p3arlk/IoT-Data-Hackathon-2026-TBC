@@ -204,6 +204,59 @@ class DataCleaner:
             self.logger.warning("  → No household data found, using fallback")
             self._create_fallback_households()
 
+        # -----------------------------------------------------------------
+        # Labour 2.1 / 2.2: district labour numbers and participation rates
+        # -----------------------------------------------------------------
+        if 'labour_2_1' in self.raw:
+            try:
+                lf = self.raw['labour_2_1'].copy()
+                # Ensure district column name
+                if 'District' in lf.columns:
+                    lf = lf.rename(columns={lf.columns[0]: 'District'}) if lf.columns[0] != 'District' else lf
+                # Numeric conversion done in reader but coerce again
+                for col in ['Male', 'Female', 'Both sexes']:
+                    if col in lf.columns:
+                        lf[col] = clean_numeric(lf[col])
+
+                # Create labour_score normalized 0-1 based on Both sexes
+                if 'Both sexes' in lf.columns:
+                    min_v = lf['Both sexes'].min()
+                    max_v = lf['Both sexes'].max()
+                    if pd.notna(min_v) and pd.notna(max_v) and max_v > min_v:
+                        lf['labour_score'] = (lf['Both sexes'] - min_v) / (max_v - min_v)
+                    else:
+                        lf['labour_score'] = 0.5
+
+                self.cleaned['labour_2024'] = lf
+                self.logger.success(f"  → Cleaned labour_2_1: {len(lf)} districts")
+            except Exception as e:
+                self.logger.warning(f"  → Could not clean labour_2_1: {e}")
+
+        if 'labour_2_2' in self.raw:
+            try:
+                lp = self.raw['labour_2_2'].copy()
+                for col in ['Male_pct', 'Female_pct', 'Both_pct']:
+                    if col in lp.columns:
+                        lp[col] = clean_numeric(lp[col])
+                self.cleaned['labour_participation'] = lp
+                self.logger.success(f"  → Cleaned labour participation (2.2): {len(lp)} rows")
+            except Exception as e:
+                self.logger.warning(f"  → Could not clean labour_2_2: {e}")
+
+        # -----------------------------------------------------------------
+        # Housing type (national-level by income brackets) - INFO ONLY
+        # -----------------------------------------------------------------
+        if 'housing_type' in self.raw:
+            try:
+                h = self.raw['housing_type'].copy()
+                # This table is structured as Year/Quarter x Income range -> housing types
+                # Too granular and aggregate to extract district-level insights
+                # Store as-is for reference; no district-level cleaning needed
+                self.cleaned['housing_type_national'] = h.head(20)  # Store first 20 rows as reference
+                self.logger.success(f"  → Housing type (national aggregate): {len(h)} rows (reference only)")
+            except Exception as e:
+                self.logger.warning(f"  → Could not process housing_type: {e}")
+
     def _create_fallback_income(self):
         """Create fallback income data from known HK values"""
         
